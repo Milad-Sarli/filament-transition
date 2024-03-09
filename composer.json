@@ -1,6 +1,6 @@
 {
     "name": "milad-sarli/filament-transition",
-    "description": "a  simple plugin for adding simple fade in transitions in admin panel",
+    "description": "this package adds some fade in transtions to panel admin",
     "keywords": [
         "Milad-Sarli",
         "laravel",
@@ -14,7 +14,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "milad-sarli",
+            "name": "milad sarli",
             "email": "miladsarli4444@gmail.com",
             "role": "Developer"
         }
