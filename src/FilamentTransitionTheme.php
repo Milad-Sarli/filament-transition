@@ -19,8 +19,8 @@ class FilamentTransition implements Plugin
     public function register(Panel $panel): void
     {
         FilamentAsset::register([
-            Theme::make('filament-transition', __DIR__ . '/../resources/dist/filament-transition.css'),
-            AlpineComponent::make('filament-transition', __DIR__ . '/../resources/dist/filament-transition.js'),
+            Theme::make('filament-transition', __DIR__.'/../resources/dist/filament-transition.css'),
+            AlpineComponent::make('filament-transition', __DIR__.'/../resources/dist/filament-transition.js'),
         ]);
 
         $panel
