@@ -29,16 +29,15 @@ class FilamentTransitionServiceProvider extends PackageServiceProvider
          *
          * More info: https://github.com/spatie/laravel-package-tools
          */
-        $package->name(static::$name)
-//            ->hasCommands($this->getCommands())
-//            ->hasInstallCommand(function (InstallCommand $command) {
-//                $command
-//                    ->publishConfigFile()
-//                    ->publishMigrations()
-//                    ->askToRunMigrations()
-//                    ->askToStarRepoOnGitHub('milad-sarli/filament-transition');
-//            })
-        ;
+        $package->name(static::$name);
+        //            ->hasCommands($this->getCommands())
+        //            ->hasInstallCommand(function (InstallCommand $command) {
+        //                $command
+        //                    ->publishConfigFile()
+        //                    ->publishMigrations()
+        //                    ->askToRunMigrations()
+        //                    ->askToStarRepoOnGitHub('milad-sarli/filament-transition');
+        //            })
 
         $configFileName = $package->shortName();
 
@@ -115,7 +114,7 @@ class FilamentTransitionServiceProvider extends PackageServiceProvider
     protected function getCommands(): array
     {
         return [
-//            FilamentTransitionCommand::class,
+            //            FilamentTransitionCommand::class,
         ];
     }
 
