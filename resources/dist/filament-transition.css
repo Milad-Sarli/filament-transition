@@ -1,0 +1,21 @@
+.fi-section {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 0.5s ease, transform 0.7s ease;
+}
+
+.fi-section.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fi-ta {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.5s ease, transform 0.7s ease;
+}
+
+.fi-ta.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
