@@ -19,3 +19,12 @@
     opacity: 1;
     transform: translateX(0);
 }
+.fi-wi-stats-overview-stat {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 0.5s ease, transform 0.7s ease;
+}
+.fi-wi-stats-overview-stat.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
