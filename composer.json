@@ -1,6 +1,7 @@
 {
     "name": "milad-sarli/filament-transition",
     "description": "this package adds some fade in transtions to panel admin",
+    "version": "1.0.0",
     "keywords": [
         "Milad-Sarli",
         "laravel",
