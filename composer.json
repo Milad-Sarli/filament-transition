@@ -64,5 +64,7 @@
                 "FilamentTransition": "MiladSarli\\FilamentTransition\\Facades\\FilamentTransition"
             }
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
