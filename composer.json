@@ -24,7 +24,8 @@
         "php": "^8.1",
         "filament/filament": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0",
-        "illuminate/contracts": "^10.0"
+        "illuminate/contracts": "^10.0",
+        "overtrue/laravel-versionable": "^5.0"
     },
     "require-dev": {
         "nunomaduro/collision": "^7.9",
@@ -35,8 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MiladSarli\\FilamentTransition\\": "src/",
-            "MiladSarli\\FilamentTransition\\Database\\Factories\\": "database/factories/"
+            "MiladSarli\\FilamentTransition\\": "src/"
         }
     },
     "autoload-dev": {
@@ -66,6 +66,6 @@
             }
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
