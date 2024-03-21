@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
         stat.classList.add('fade-in');
       },index  * 200)
     })
-  },200)
+  },1)
 })
 // milad sarli - techmil team
